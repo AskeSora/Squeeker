@@ -1,0 +1,2 @@
+# Squeeker
+Simplified social platform.
