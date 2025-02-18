@@ -1,0 +1,209 @@
+body {
+    background-color: #eeeeee;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+/* */
+header {
+    width: 100%;
+    height: 150px;
+    background-color: #0e1627;
+    color: #a5989d;
+}
+header img {
+    height: 80px;
+}
+header span {
+    font-size: 60px;
+}
+.searchform {
+    text-align: center;
+}
+.searchbtn {
+    height: 24px;
+    width: 60px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #d5a021;
+    color: #eeeeee;
+}
+/* */
+.content {
+    padding: 20px;
+    min-height: 100%;
+    margin: 0 auto -50px;
+}
+/* */
+.gridcontainer2 {
+    display: grid;
+    grid-template-columns: 1050px auto;
+}
+.gridcontainer3 {
+    display: grid;
+    grid-template-columns: auto 60% auto;
+}
+.griditem {
+    align-content: center;
+}
+.griditem img{
+    margin-left: 100px;
+    width: 900px;
+    height: auto;
+}
+/* */
+h1 {
+    color: #0e1627;
+}
+h2 {
+    color: #0e1627;
+}
+h3 {
+    color: #0e1627;
+}
+.loginform label{
+    font-size: 14px;
+}
+.loginform input {
+    font-size: 16px;
+    height: 36px;
+    width: 400px;
+    padding: 10px;
+    border: none;
+}
+.loginbtn {
+    height: 56px;
+    width: 400px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #d5a021;
+    color: #eeeeee;
+}
+.loginbtn:hover {
+    cursor: pointer;
+    background-color: #cf821c;
+}
+.registerlink {
+    text-align: center;
+}
+.signin a {
+    text-decoration: none;
+    color: #cf821c;
+}
+/* */
+.loggedin {
+    padding-left: 20px;
+}
+.profilelink {
+    text-decoration: none;
+    color: #cf821c;
+}
+.profilepic {
+    width: 200px;
+    height: auto;
+}
+.profilestuff {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.followbtn {
+    margin-top: 5px;
+    height: 26px;
+    width: 120px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #d5a021;
+    color: #eeeeee;
+}
+.followbtn:hover {
+    cursor: pointer;
+    background-color: #cf821c;
+}
+.makepost {
+    padding: 20px;
+    padding-left: 30px;
+}
+.postbtn {
+    height: 26px;
+    width: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #d5a021;
+    color: #eeeeee;
+}
+.postbtn:hover {
+    cursor: pointer;
+    background-color: #cf821c;
+}
+.post {
+    background-color: #ffffff;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #a5989d;
+    margin: 10px;
+}
+.userlink {
+    text-decoration: none;
+    color: #0e1627;
+}
+.postcontent {
+    padding: 20px;
+}
+.likebtn {
+    height: 26px;
+    width: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #d5a021;
+    color: #eeeeee;
+}
+.likebtn:hover {
+    cursor: pointer;
+    background-color: #cf821c;
+}
+.commentcontent {
+    padding: 5px;
+    padding-left: 20px;
+    background-color: #eeeeee;
+    border: none;
+    border-radius: 10px;
+}
+.commentbtn {
+    margin-top: 5px;
+    height: 26px;
+    width: 120px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #d5a021;
+    color: #eeeeee;
+}
+.commentbtn:hover {
+    cursor: pointer;
+    background-color: #cf821c;
+}
+/* */
+.profilepic {
+    width: 200px;
+    height: auto;
+}
+/* */
+.push {
+    height: 20px;
+}
+/* */
+footer {
+   background-color: #0e1627;
+   color: #eeeeee;
+   height: 100px;
+   padding-left: 200px;
+   padding-top: 50px;
+}
+
